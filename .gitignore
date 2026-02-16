@@ -1,0 +1,43 @@
+# SSL Certificates (regenerate locally with generate-cert.sh)
+*.pem
+
+# Terrain data (large binary files - regenerate with pipeline)
+data/
+*.bin
+*.glb
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Cache
+.cache/
+*.cache
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
